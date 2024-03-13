@@ -5,20 +5,20 @@
 tokens:
   # Eth Mainnet HypNative token
   - chainName: sepolia
-    standard: EvmHypNative
+    standard: EvmHypSynthetic
     decimals: 18
     symbol: ETH
     name: Ether
-    addressOrDenom: '0x767C51a91CC9dEF2F24C35c340649411D6390320'
+    addressOrDenom: '0x79Aa9f56d63dcC332bC3dbF0492b02F89C040007'
     logoURI: '/logos/weth.png'
     connections:
       - { token: ethereum|hypertestnet|0x1E34f3EB8f627F70d7920B4aD7eC5A75161a7Ce2 }
   - chainName: hypertestnet
-    standard: EvmHypSynthetic
+    standard: EvmHypNative
     decimals: 18
     symbol: ETH
     name: Ether
     addressOrDenom: '0x1E34f3EB8f627F70d7920B4aD7eC5A75161a7Ce2'
     logoURI: '/logos/weth.png'
     connections:
-      - { token: ethereum|sepolia|0x767C51a91CC9dEF2F24C35c340649411D6390320 }
+      - { token: ethereum|sepolia|0x79Aa9f56d63dcC332bC3dbF0492b02F89C040007 }
