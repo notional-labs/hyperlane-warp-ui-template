@@ -5,20 +5,38 @@
 tokens:
   # Eth Mainnet HypNative token
   - chainName: sepolia
-    standard: EvmHypSynthetic
-    decimals: 18
-    symbol: ETH
-    name: Ether
-    addressOrDenom: '0x79Aa9f56d63dcC332bC3dbF0492b02F89C040007'
-    logoURI: '/logos/weth.png'
-    connections:
-      - { token: ethereum|hypertestnet|0x1E34f3EB8f627F70d7920B4aD7eC5A75161a7Ce2 }
-  - chainName: hypertestnet
     standard: EvmHypNative
     decimals: 18
     symbol: ETH
     name: Ether
-    addressOrDenom: '0x1E34f3EB8f627F70d7920B4aD7eC5A75161a7Ce2'
+    addressOrDenom: '0xe7B4a8daaBC69Db8F790b504332d94FAe5833235'
     logoURI: '/logos/weth.png'
     connections:
-      - { token: ethereum|sepolia|0x79Aa9f56d63dcC332bC3dbF0492b02F89C040007 }
+      - { token: ethereum|hypertestnet|0x028D2C8952B56f39Fbb747Fa5ABB037Dc09951dB }
+  - chainName: hypertestnet
+    standard: EvmHypSynthetic
+    decimals: 18
+    symbol: ETH
+    name: Ether
+    addressOrDenom: '0x028D2C8952B56f39Fbb747Fa5ABB037Dc09951dB'
+    logoURI: '/logos/weth.png'
+    connections:
+      - { token: ethereum|sepolia|0xe7B4a8daaBC69Db8F790b504332d94FAe5833235 }
+  - chainName: sepolia
+    standard: EvmHypCollateral
+    decimals: 6
+    symbol: USDT
+    name: USDT
+    addressOrDenom: '0x63E115C755Ffa61c98C60757cB4F0c4fcA1EC5fc'
+#    logoURI: '/logos/weth.png'
+    connections:
+      - { token: ethereum|hypertestnet|0xdeB5bC901846FBdf346b636a860730A7eC348c60 }
+  - chainName: hypertestnet
+    standard: EvmHypSynthetic
+    decimals: 6
+    symbol: USDT
+    name: USDT
+    addressOrDenom: '0xdeB5bC901846FBdf346b636a860730A7eC348c60'
+#    logoURI: '/logos/weth.png'
+    connections:
+      - { token: ethereum|sepolia|0x63E115C755Ffa61c98C60757cB4F0c4fcA1EC5fc }
