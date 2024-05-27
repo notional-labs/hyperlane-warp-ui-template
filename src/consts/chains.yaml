@@ -1,22 +1,22 @@
-# A map of chain names to ChainMetadata
-# Chains can be defined here, in chains.json, or in chains.ts
-# Chains already in the SDK need not be included here unless you want to override some fields
-# Schema here: https://github.com/hyperlane-xyz/hyperlane-monorepo/blob/main/typescript/sdk/src/metadata/chainMetadataTypes.ts
----
-# Example using local anvil chain:
-hypertestnet:
-   chainId: 882
-   domainId: 882
-   name: hypertestnet
-   protocol: ethereum
-   rpcUrls:
-     - http: https://rpc-testnet.hypr.network/
-   nativeToken: { name: 'Ether', symbol: 'ETH', decimals: 18 }
-sepolia:
-   chainId: 11155111
-   domainId: 11155111
-   name: sepolia
-   protocol: ethereum
-   rpcUrls:
-     - http: https://ethereum-sepolia-rpc.publicnode.com
-   nativeToken: { name: 'Ether', symbol: 'ETH', decimals: 18 }
+## A map of chain names to ChainMetadata
+## Chains can be defined here, in chains.json, or in chains.ts
+## Chains already in the SDK need not be included here unless you want to override some fields
+## Schema here: https://github.com/hyperlane-xyz/hyperlane-monorepo/blob/main/typescript/sdk/src/metadata/chainMetadataTypes.ts
+#---
+## Example using local anvil chain:
+#bob:
+#   chainId: 60808
+#   domainId: 60808
+#   name: BOB
+#   protocol: ethereum
+#   rpcUrls:
+#     - http: https://rpc.gobob.xyz/
+#   nativeToken: { name: 'Ether', symbol: 'ETH', decimals: 18 }
+#ethereum:
+#   chainId: 1
+#   domainId: 1
+#   name: Ethereum
+#   protocol: ethereum
+#   rpcUrls:
+#     - http: https://ethereum.publicnode.com
+#   nativeToken: { name: 'Ether', symbol: 'ETH', decimals: 18 }
