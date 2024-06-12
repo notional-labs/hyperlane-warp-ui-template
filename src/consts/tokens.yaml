@@ -20,3 +20,35 @@ tokens:
     addressOrDenom: "0x6301360802E31Ff5824cA90CaF183D4828644071"
     connections:
       - token: ethereum|ethereum|0x93840E9885C6DEdcc0e9f4440D3defE914b755C3
+  - chainName: sepolia
+    standard: EvmHypNative
+    name: Ether
+    symbol: ETH
+    decimals: 18
+    addressOrDenom: "0xF3EF9E3aF0f4696D9DBcC26140F7c0a52188BDf0"
+    connections:
+      - token: ethereum|zircuittestnet|0x1A145b7761e2B7D939eaABeAA2b8ef5aAeb813fD
+  - chainName: zircuittestnet
+    standard: EvmHypSynthetic
+    name: Ether
+    symbol: ETH
+    decimals: 18
+    addressOrDenom: "0x1A145b7761e2B7D939eaABeAA2b8ef5aAeb813fD"
+    connections:
+      - token: ethereum|sepolia|0xF3EF9E3aF0f4696D9DBcC26140F7c0a52188BDf0
+  - chainName: sepolia
+    standard: EvmHypNative
+    name: Ether
+    symbol: ETH
+    decimals: 18
+    addressOrDenom: "0x2eE2425B818531aa329BAAA7028786ad0e6D2D2f"
+    connections:
+      - token: ethereum|hyperliquidtestnet|0x2f7Ff3EDB340EFbF93451e9806745fc510Af8086
+  - chainName: hyperliquidtestnet
+    standard: EvmHypSynthetic
+    name: Ether
+    symbol: ETH
+    decimals: 18
+    addressOrDenom: "0x2f7Ff3EDB340EFbF93451e9806745fc510Af8086"
+    connections:
+      - token: ethereum|sepolia|0x2eE2425B818531aa329BAAA7028786ad0e6D2D2f

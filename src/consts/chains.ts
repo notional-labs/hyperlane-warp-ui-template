@@ -28,4 +28,40 @@ export const chains: ChainMap<ChainMetadata & { mailbox?: Address }> = {
       estimateBlockTime: 10,
     },
   },
+  hyperliquidtestnet: {
+    protocol: ProtocolType.Ethereum,
+    chainId: 998,
+    domainId: 998,
+    name: 'hyperliquidtestnet',
+    displayName: 'Hyperliquid Testnet',
+    nativeToken: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    rpcUrls: [{ http: 'https://api.hyperliquid-testnet.xyz/evm' }],
+    blocks: {
+      confirmations: 1,
+      reorgPeriod: 1,
+      estimateBlockTime: 10,
+    },
+  },
+  zircuittestnet: {
+    protocol: ProtocolType.Ethereum,
+    chainId: 48899,
+    domainId: 48899,
+    name: 'zircuittestnet',
+    displayName: 'Zircuit Testnet',
+    nativeToken: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    rpcUrls: [{ http: 'https://zircuit1.p2pify.com/' }],
+    blockExplorers: [
+      {
+        name: 'Zircuit explorer',
+        url: 'https://explorer.zircuit.com/',
+        apiUrl: 'https://explorer.zircuit.com/api',
+        family: ExplorerFamily.Blockscout,
+      },
+    ],
+    blocks: {
+      confirmations: 1,
+      reorgPeriod: 1,
+      estimateBlockTime: 10,
+    },
+  },
 };
