@@ -41,14 +41,14 @@ tokens:
     name: Ether
     symbol: ETH
     decimals: 18
-    addressOrDenom: "0x2e6673Ee15A16f05AA2612F5F9F520112ae05335"
+    addressOrDenom: "0xE1E9A4Cc05F07055f55Be10f842FdB2690C5a2F9"
     connections:
-      - token: ethereum|hyperliquidtestnet|0x3f5E62A3cb57F55cc4e67CbC647C34B2B7872499
-  - chainName: hyperliquidtestnet
+      - token: ethereum|zircuittestnet|0x7f2DFEcBA7D6eE9f3Ab4De606069DE13Fca3D100
+  - chainName: zircuittestnet
     standard: EvmHypSynthetic
     name: Ether
     symbol: ETH
     decimals: 18
-    addressOrDenom: "0x3f5E62A3cb57F55cc4e67CbC647C34B2B7872499"
+    addressOrDenom: "0x7f2DFEcBA7D6eE9f3Ab4De606069DE13Fca3D100"
     connections:
-      - token: ethereum|sepolia|0x2e6673Ee15A16f05AA2612F5F9F520112ae05335
+      - token: ethereum|sepolia|0xE1E9A4Cc05F07055f55Be10f842FdB2690C5a2F9
