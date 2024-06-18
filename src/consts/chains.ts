@@ -64,4 +64,26 @@ export const chains: ChainMap<ChainMetadata & { mailbox?: Address }> = {
       estimateBlockTime: 10,
     },
   },
+  funkitestnet: {
+    protocol: ProtocolType.Ethereum,
+    chainId: 3397901,
+    domainId: 3397901,
+    name: 'funkitestnet',
+    displayName: 'Funki Testnet',
+    nativeToken: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    rpcUrls: [{ http: 'https://funki-testnet.alt.technology' }],
+    blockExplorers: [
+      {
+        name: 'Funki explorer',
+        url: 'https://sepolia-sandbox.funkichain.com',
+        apiUrl: 'https://sepolia-sandbox.funkichain.com/api',
+        family: ExplorerFamily.Blockscout,
+      },
+    ],
+    blocks: {
+      confirmations: 1,
+      reorgPeriod: 1,
+      estimateBlockTime: 10,
+    },
+  },
 };

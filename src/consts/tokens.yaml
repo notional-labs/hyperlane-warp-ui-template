@@ -52,3 +52,35 @@ tokens:
     addressOrDenom: "0x7f2DFEcBA7D6eE9f3Ab4De606069DE13Fca3D100"
     connections:
       - token: ethereum|sepolia|0xE1E9A4Cc05F07055f55Be10f842FdB2690C5a2F9
+  - chainName: sepolia
+    standard: EvmHypNative
+    name: Ether
+    symbol: ETH
+    decimals: 18
+    addressOrDenom: "0x715b51c41BDd94a87bfa7CCBe5B212C8F036D966"
+    connections:
+      - token: ethereum|funkitestnet|0x1A145b7761e2B7D939eaABeAA2b8ef5aAeb813fD
+  - chainName: funkitestnet
+    standard: EvmHypSynthetic
+    name: Ether
+    symbol: ETH
+    decimals: 18
+    addressOrDenom: "0x1A145b7761e2B7D939eaABeAA2b8ef5aAeb813fD"
+    connections:
+      - token: ethereum|sepolia|0x715b51c41BDd94a87bfa7CCBe5B212C8F036D966
+  - chainName: sepolia
+    standard: EvmHypNative
+    name: Ether
+    symbol: ETH
+    decimals: 18
+    addressOrDenom: "0x2e6673Ee15A16f05AA2612F5F9F520112ae05335"
+    connections:
+      - token: ethereum|hyperliquidtestnet|0x3f5E62A3cb57F55cc4e67CbC647C34B2B7872499
+  - chainName: hyperliquidtestnet
+    standard: EvmHypSynthetic
+    name: Ether
+    symbol: ETH
+    decimals: 18
+    addressOrDenom: "0x3f5E62A3cb57F55cc4e67CbC647C34B2B7872499"
+    connections:
+      - token: ethereum|sepolia|0x2e6673Ee15A16f05AA2612F5F9F520112ae05335
