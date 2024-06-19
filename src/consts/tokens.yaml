@@ -25,17 +25,17 @@ tokens:
     name: Ether
     symbol: ETH
     decimals: 18
-    addressOrDenom: "0xF3EF9E3aF0f4696D9DBcC26140F7c0a52188BDf0"
+    addressOrDenom: "0x0a8bF6AF06Bc301a9C8548382Fa91daf49099dd9"
     connections:
-      - token: ethereum|zircuittestnet|0x1A145b7761e2B7D939eaABeAA2b8ef5aAeb813fD
+      - token: ethereum|zircuittestnet|0x24B8018c87f3e2b8bD7F8F0726b59F2d94B857AA
   - chainName: zircuittestnet
     standard: EvmHypSynthetic
     name: Ether
     symbol: ETH
     decimals: 18
-    addressOrDenom: "0x1A145b7761e2B7D939eaABeAA2b8ef5aAeb813fD"
+    addressOrDenom: "0x24B8018c87f3e2b8bD7F8F0726b59F2d94B857AA"
     connections:
-      - token: ethereum|sepolia|0xF3EF9E3aF0f4696D9DBcC26140F7c0a52188BDf0
+      - token: ethereum|sepolia|0x0a8bF6AF06Bc301a9C8548382Fa91daf49099dd9
   - chainName: sepolia
     standard: EvmHypNative
     name: Ether
