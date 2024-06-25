@@ -86,4 +86,26 @@ export const chains: ChainMap<ChainMetadata & { mailbox?: Address }> = {
       estimateBlockTime: 10,
     },
   },
+  merlintestnet: {
+    protocol: ProtocolType.Ethereum,
+    chainId: 686868,
+    domainId: 686868,
+    name: 'merlintestnet',
+    displayName: 'Merlin Testnet',
+    nativeToken: { name: 'BTC', symbol: 'BTC', decimals: 18 },
+    rpcUrls: [{ http: 'https://testnet-rpc.merlinchain.io' }],
+    blockExplorers: [
+      {
+        name: 'Merlin testnet explorer',
+        url: 'https://testnet-scan.merlinchain.io',
+        apiUrl: 'https://testnet-scan.merlinchain.io/api',
+        family: ExplorerFamily.Blockscout,
+      },
+    ],
+    blocks: {
+      confirmations: 1,
+      reorgPeriod: 1,
+      estimateBlockTime: 10,
+    },
+  },
 };
