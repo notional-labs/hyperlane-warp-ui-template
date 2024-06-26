@@ -114,15 +114,25 @@ tokens:
     name: Sipher Token
     symbol: SIPHER
     decimals: 18
-    addressOrDenom: "0x21b044ceE37B6bd05b923D9f02394C294aE66964"
+    totalSupply: 0
+    isNft: false
+    type: collateral
+    token: "0x7f0c2f38d6386268f49501707dd1421fd03353fc"
+    owner: "0xD227Ed60eEE10c535Ac2878E0e29C1F8541529fA"
+    mailbox: "0x4e99bB0c59e1b4a9080Dd33be182D778c39Cd139"
+    addressOrDenom: "0x6a479bCA5CAEa4260245D61086ACBD1A6051461A"
     collateralAddressOrDenom: "0x7f0c2f38d6386268f49501707dd1421fd03353fc"
     connections:
-      - token: ethereum|zircuittestnet|0xa9c12F47836207879Ec1bbec09361DB932Db2f09
-  - chainName: zircuittestnet
+      - token: ethereum|funkitestnet|0x690A4771392B058187ad9AA031CC159d2D419Eb3
+  - chainName: funkitestnet
     standard: EvmHypSynthetic
     name: Sipher Token
     symbol: SIPHER
     decimals: 18
-    addressOrDenom: "0xa9c12F47836207879Ec1bbec09361DB932Db2f09"
+    totalSupply: 0
+    type: synthetic
+    owner: "0xD227Ed60eEE10c535Ac2878E0e29C1F8541529fA"
+    mailbox: "0xcA96fa8c9cD66297c6f8004310b484E59318ad6a"
+    addressOrDenom: "0x690A4771392B058187ad9AA031CC159d2D419Eb3"
     connections:
-      - token: ethereum|sepolia|0x21b044ceE37B6bd05b923D9f02394C294aE66964
+      - token: ethereum|sepolia|0x6a479bCA5CAEa4260245D61086ACBD1A6051461A
